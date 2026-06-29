@@ -16,6 +16,7 @@ to predict output ( profit )
 - ** population **: the size of the city population ( independent variable X )
 - ** profit *: the profit of that city ( dependent variavle y )
 
+
 ## implementation Details
 - reading the data , naming the columns and Skipinit so that any spaces in data it removes
 - convert data to numeric values so that any npn-numeric values are turned into Nan
@@ -25,12 +26,14 @@ to predict output ( profit )
 - seperate features for sklearn ( before converting them into matrix) 
 - converting the data into matrix and make theta
 
+
 ### implementation cost function
 - implement cost function manually to measure how well prediction line fits training data
 - def compute_cost( X , y , theta) : 
 - mathimatically equation = 1 / ( 2 * m ) * sum( ( predicted value - actual value )^2 )
 - m = number of training data
-  
+
+
 ### implementation gradient descent
 -  implement gradient descent manually to guess thetas and decrease cost function
 -  Instead of guessing the weights or using exhaustive searching
@@ -44,6 +47,7 @@ to predict output ( profit )
 - x = the start and end point for regression line
 - f = equation of linear regression ( expected values )
 
+
 ### predicting by SKlearn
 - lin_reg is a object from LinearRegression class
 - `fit()` method ( and out manual gradient ) represents the actual training phase of ML model
@@ -52,6 +56,7 @@ to predict output ( profit )
 - establish the best regression line fits the data
 
 `predict()` method takes inputs ( test data ) and produces the predicted values based on regression line
+
 
 ### drawing by sklearn
  - draw a graph for predicted profit vs population size
@@ -62,7 +67,7 @@ to predict output ( profit )
 - Cost before gradient = 32.072733877455676 
 - Cost after gradient = 4.4846848047288494 
 - Cost = [6.73719046 5.93159357 5.90115471 ... 4.48476876 4.48474067 4.48471269]
--Number of iterations = 1448
+- Number of iterations = 1448
 - theta after gradient = [[-3.60470313  1.16379173]]
 - predicted profit for 70k people = 44554.55
 - predicted profit for 10k people = -27027.47
@@ -73,7 +78,7 @@ to predict output ( profit )
 the figure below shows the fitted regression line on the training data ( left )
 and the cost function vs iterations ( right )
 
-![Visualization](images/figure_2.png)
+![Visualization](images/Figure_2.png)
 
 
 
