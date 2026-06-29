@@ -1,2 +1,2 @@
 ## image
-![hassan](images/plot.png)
+![hassan](images/figure_1.png)
