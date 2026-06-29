@@ -88,5 +88,36 @@ and the cost function vs iterations ( right )
 ![Visualization](images/Figure_2.png)
 
 
+## Usage
+
+Run the project using:
+
+```bash
+python sin_lin_reg_file.py
+```
+
+The program will:
+- Load the dataset.
+- Train a Linear Regression model using Gradient Descent.
+- Train a Linear Regression model using Scikit-learn.
+- Display the prediction results.
+- Visualize the regression line and the cost function.
+
+
+## Library used:
+- Numpy
+- pandas
+- matplotlib
+- sklearn
+- os
+
+
+## 🎓 Educational Purpose
+This repository was created strictly for **educational and learning purposes**.
+The primary goal of this project is to bridge the gap between theoretical Machine Learning mathematics and practical code.
+By coding the Cost Function and Gradient Descent from scratch using NumPy matrices,
+I aimed to deeply understand how optimization algorithms work behind the scenes
+before transitioning to high-level production libraries like Scikit-Learn.
+
 
 
